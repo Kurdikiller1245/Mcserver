@@ -3,9 +3,9 @@ const client = new Discord.Client();
 client.login('NDQzMTMxMzIzNjM3MzAxMjU4.DdI5ug.PYoqQpdyYw-99RQ3qIUPjnhC_IY');
 
 var request = require('request');
-var mcCommand = '/minecraft'; // Command for triggering
-var mcIP = '193.70.80.37'; // Your MC server IP
-var mcPort = 25659; // Your MC server port
+var mcCommand = '/minecraft';
+var mcIP = '193.70.80.37';
+var mcPort = 25659;
 
 client.on('message', message => {
     if (message.content === mcCommand) {
