@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.login('NDQzMTMxMzIzNjM3MzAxMjU4.DdI5ug.PYoqQpdyYw-99RQ3qIUPjnhC_IY');
 
-var request = require('');
+
 var mcCommand = '/minecraft';
 var mcIP = '193.70.80.37';
 var mcPort = 25659;
